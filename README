@@ -1,0 +1,13 @@
+bash
+
+# Format 1 — your preferred style
+python3 put_scanner.py -f tickers.list -d 0.10 -t 15May2026
+
+# Format 2 — US date style
+python3 put_scanner.py -f tickers.list -d 0.10 -t 5/15/2026
+
+# Format 3 — ISO format
+python3 put_scanner.py -f tickers.list -d 0.10 -t 2026-05-15
+
+# No -t flag = automatically uses next Friday
+python3 put_scanner.py -f tickers.list -d 0.10
