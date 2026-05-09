@@ -42,9 +42,7 @@ Last two colums is appox weekly and Annualized Rate of return.
 
 Logged out successfully.
   Session closed. Done.
-
 ===========================================================================================================
-
 Sample command:
 
 # Format 1 — your preferred style
@@ -58,3 +56,31 @@ python3 put_scanner.py -f tickers.list -d 0.10 -t 2026-05-15
 
 # No -t flag = automatically uses next Friday
 python3 put_scanner.py -f tickers.list -d 0.10
+===========================================================================================================
+Sample Stock Ticker List:
+
+view tickers.list
+
+AAL
+AMZN
+APLD
+ASTS
+BITX
+BMNR
+CIFR
+CRCL
+CRWV
+GLW
+GOOGL
+HIMS
+HOOD
+HUT
+INTC
+IONQ
+IOT
+IREN
+IWM
+
+
+
+
