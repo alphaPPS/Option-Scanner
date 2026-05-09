@@ -1,5 +1,7 @@
 bash
 
+# Put Option Scanner - Based on list of stocks, It finds the premium for Chance of profit 90% win rate (Which is also 0.10 Delta)
+
 # Works for Robinhood accounts.
 # Need to provide login and password for your robin account.
 
