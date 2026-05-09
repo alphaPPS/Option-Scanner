@@ -3,7 +3,26 @@ bash
 # Works for Robinhood accounts.
 # Need to provide login and password for your robin account.
 
-# Output (writted as csv) will include premium for a specificed delta.
+====================================================================================
++ How to Install it:
+    Download put_scanner.py package to your laptop or PC.
+====================================================================================
++ How to run it on a linux Machine (This scripts run on windows as well)
+    Sample command:
+    
+    # Format 1 — your preferred style
+    python3 put_scanner.py -f tickers.list -d 0.10 -t 15May2026
+    
+    # Format 2 — US date style
+    python3 put_scanner.py -f tickers.list -d 0.10 -t 5/15/2026
+    
+    # Format 3 — ISO format
+    python3 put_scanner.py -f tickers.list -d 0.10 -t 2026-05-15
+    
+    # No -t flag = automatically uses next Friday
+    python3 put_scanner.py -f tickers.list -d 0.10
+====================================================================================
+# Output (written as csv) will include premium for a specificed delta.
 
 Last two colums is appox weekly and Annualized Rate of return.
 
@@ -43,19 +62,7 @@ Last two colums is appox weekly and Annualized Rate of return.
 Logged out successfully.
   Session closed. Done.
 ===========================================================================================================
-Sample command:
 
-# Format 1 — your preferred style
-python3 put_scanner.py -f tickers.list -d 0.10 -t 15May2026
-
-# Format 2 — US date style
-python3 put_scanner.py -f tickers.list -d 0.10 -t 5/15/2026
-
-# Format 3 — ISO format
-python3 put_scanner.py -f tickers.list -d 0.10 -t 2026-05-15
-
-# No -t flag = automatically uses next Friday
-python3 put_scanner.py -f tickers.list -d 0.10
 ===========================================================================================================
 Sample Stock Ticker List:
 
