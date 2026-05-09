@@ -8,6 +8,10 @@ bash
     Download put_scanner.py package to your laptop or PC.
 ====================================================================================
 + How to run it on a linux Machine (This scripts run on windows as well)
+
+    Command Syntax:
+    python3 put_scanner.py -f <Stock Ticker File List> -d <Delta> -t <Date>
+
     Sample command:
     
     # Format 1 — your preferred style
@@ -22,6 +26,32 @@ bash
     # No -t flag = automatically uses next Friday
     python3 put_scanner.py -f tickers.list -d 0.10
 ====================================================================================
+
+Sample Stock Ticker List:
+
+view tickers.list
+
+AAL
+AMZN
+APLD
+ASTS
+BITX
+BMNR
+CIFR
+CRCL
+CRWV
+GLW
+GOOGL
+HIMS
+HOOD
+HUT
+INTC
+IONQ
+IOT
+IREN
+IWM
+====================================================================================
+
 # Output (written as csv) will include premium for a specificed delta.
 
 Last two colums is appox weekly and Annualized Rate of return.
@@ -62,31 +92,7 @@ Last two colums is appox weekly and Annualized Rate of return.
 Logged out successfully.
   Session closed. Done.
 ===========================================================================================================
-
 ===========================================================================================================
-Sample Stock Ticker List:
-
-view tickers.list
-
-AAL
-AMZN
-APLD
-ASTS
-BITX
-BMNR
-CIFR
-CRCL
-CRWV
-GLW
-GOOGL
-HIMS
-HOOD
-HUT
-INTC
-IONQ
-IOT
-IREN
-IWM
 
 
 
